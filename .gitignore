@@ -1,0 +1,31 @@
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# VS Code settings
+.vscode/
+
+# ArcGIS temporary files
+*.lock
+*.sr.lock
+*.gdb/
+*.mdb
+*.freelist
+*.spx
+
+# API keys and environment files
+.env
+secrets.txt
+api_key.txt
+config.json
+
+# Output folders
+outputs/
+temp/
+scratch/
+
+# Operating system files
+.DS_Store
+Thumbs.db
