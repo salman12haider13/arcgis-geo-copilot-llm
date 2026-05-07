@@ -352,18 +352,6 @@ This is especially important for GIS projects involving:
 
 So even though the tested local Llama model failed, the idea of using local LLMs for private GIS automation is still valuable.
 
-## Statistical Evaluation
-
-The project also used statistical testing to compare the two models.
-
-McNemar's test was used because both models were tested on the same set of queries.
-
-The results showed that GPT performed significantly better than the local Llama model for both:
-
-- function selection accuracy
-- parameter accuracy
-
-Spearman correlation was also used to check whether query complexity affected GPT accuracy. The results showed no statistically significant monotonic relationship between complexity level and GPT accuracy, although parameter accuracy did decrease slightly as workflows became more complex.
 
 ## Example Queries
 
