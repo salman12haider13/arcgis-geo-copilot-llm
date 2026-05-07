@@ -411,25 +411,6 @@ This project is an academic prototype and has limitations.
 - The GUI is functional but still basic.
 - The tool is not production-ready and should be used carefully.
 
-## Security Note
-
-Do not hardcode API keys in the script.
-
-For public GitHub, the OpenAI client should be initialized without exposing a key:
-
-```python
-client = OpenAI()
-```
-
-Then set the API key as an environment variable before running the tool.
-
-Example in PowerShell:
-
-```powershell
-$env:OPENAI_API_KEY="your_api_key_here"
-```
-
-This keeps the API key outside the code.
 
 ## How to Use
 
